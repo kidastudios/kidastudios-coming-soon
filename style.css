@@ -214,7 +214,10 @@
     
     @media screen and (max-width: 699px) {
         .leftMain {
+            position: absolute;
+            top: 50%;
             width: 100%;
+            height: 50%;
         }
         .rightMain {
             width: 100%;
@@ -228,13 +231,14 @@
         }
         .comingSoon {
             position: absolute;
+            width: 97%;
             top: 23.5%;
             left: 3%;
-            font-size: 50px;
+            font-size: 45px;
         }
         .aboutUs {
-            position: absolute;
-            top: 30%;
+            position: relative;
+            top: 40%;
             left: 8%;
             font-size: 12.5px;
             border-left: 3px solid black;
