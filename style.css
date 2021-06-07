@@ -220,7 +220,7 @@ body {
     color: #0983ff;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
     .leftMain {
         width: 100%;
     }
