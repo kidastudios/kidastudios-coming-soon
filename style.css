@@ -220,7 +220,7 @@ body {
     color: #0983ff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 500px) {
     .leftMain {
         width: 100%;
     }
@@ -229,16 +229,16 @@ body {
     }
     .somethingNew {
         position: absolute;
-        top: 20%;
+        top: 22%;
         left: 8%;
         width: 50%;
         font-size: 15px;
     }
     .comingSoon {
         position: absolute;
-        top: 22%;
+        top: 23%;
         left: 3%;
-        font-size: 35px;
+        font-size: 50px;
     }
     .aboutUs {
         position: absolute;
@@ -251,11 +251,15 @@ body {
         width: 35%;
     }
     .header>.contact-button>button {
-        font-size: 12.5px;
+        font-size: 16.5px;
     }
     .bi {
         margin-left: 5px;
         font-size: 1.15em;
+    }
+    mark {
+        background-color: black;
+        color: white;
     }
 }
 
