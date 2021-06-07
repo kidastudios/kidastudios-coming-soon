@@ -1,0 +1,276 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+
+/* width */
+
+ ::-webkit-scrollbar {
+    width: 7.5px;
+    background: white;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: white;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #707070;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 13%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 50;
+}
+
+.header>.logo {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    height: 85%;
+    width: fit-content;
+    margin: auto;
+    z-index: 500;
+}
+
+.header>.logo>div {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    width: fit-content;
+}
+
+.header>.logo>div>img {
+    position: absolute;
+    height: 100%;
+}
+
+.header>.contact-button {
+    position: absolute;
+    right: 2%;
+    top: 27.5%;
+    width: 10%;
+    height: 45%;
+}
+
+.header>.contact-button>button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #399fd5 0%, #0983ff 100%);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 12.5px;
+    border-radius: 5px;
+    transition: all 0.25s ease;
+}
+
+.header>.contact-button>button:hover {
+    background: linear-gradient(180deg, white 0%, white 100%);
+    color: black;
+    box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+}
+
+.header>.bored-button {
+    position: absolute;
+    right: 14%;
+    top: 27.5%;
+    width: 10%;
+    height: 45%;
+    visibility: collapse;
+}
+
+.header>.bored-button>button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #399fd5 0%, #0983ff 100%);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 12.5px;
+    border-radius: 5px;
+    transition: all 0.25s ease;
+}
+
+.header>.bored-button>button:hover {
+    background: linear-gradient(180deg, white 0%, white 100%);
+    color: black;
+    box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+}
+
+.leftMain {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.somethingNew {
+    position: absolute;
+    top: 26%;
+    left: 13.5%;
+    width: 90%;
+    text-align: left;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    height: fit-content;
+    margin: 0%;
+}
+
+.comingSoon {
+    position: relative;
+    top: 28.5%;
+    left: 10%;
+    width: 90%;
+    text-align: left;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    height: fit-content;
+    margin: 0%;
+}
+
+.aboutUs {
+    position: relative;
+    top: 28.5%;
+    left: 14%;
+    width: 80%;
+    height: fit-content;
+    text-align: left;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: fit-content;
+    margin: 0%;
+    padding-left: 3.5%;
+    border-left: 5px solid black;
+    word-wrap: break-word;
+}
+
+.leftMainBottom {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 90%;
+    height: 12.5%;
+    background-color: rgb(216, 216, 216);
+    visibility: collapse;
+}
+
+.stadiaLogo {
+    position: relative;
+    margin-left: 2%;
+    top: 30%;
+    height: 40%;
+}
+
+.rightMain {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.bottomSocial {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.bi {
+    font-size: 1.5rem;
+    margin-left: 12.5px;
+    transition: color ease 0.25s;
+}
+
+.bi:hover {
+    color: #0983ff;
+}
+
+@media screen and (max-width: 425px) {
+    .leftMain {
+        width: 100%;
+    }
+    .rightMain {
+        width: 100%;
+    }
+    .somethingNew {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        width: 50%;
+        font-size: 15px;
+    }
+    .comingSoon {
+        position: absolute;
+        top: 22%;
+        left: 3%;
+        font-size: 35px;
+    }
+    .aboutUs {
+        position: absolute;
+        top: 30%;
+        left: 8%;
+        font-size: 12.5px;
+        border-left: 3px solid black;
+    }
+    .header>.contact-button {
+        width: 35%;
+    }
+    .header>.contact-button>button {
+        font-size: 12.5px;
+    }
+    .bi {
+        margin-left: 5px;
+        font-size: 1.15em;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .somethingNew {
+        position: absolute;
+        top: 27%;
+    }
+    .comingSoon {
+        font-size: 80px;
+    }
+    .aboutUs {
+        font-size: 20px;
+    }
+    .header>.contact-button>button {
+        font-size: 17.55px;
+    }
+}
