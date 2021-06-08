@@ -1,6 +1,7 @@
     html,
     body {
         scroll-behavior: smooth;
+        background: -webkit-linear-gradient( #000000, #000000);
     }
     /* width */
     
@@ -22,6 +23,19 @@
     
      ::-webkit-scrollbar-thumb:hover {
         background: #555;
+    }
+    
+    #particles-js {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #particles-js canvas {
+        display: block;
+        z-index: 0;
     }
     
     .header {
@@ -69,8 +83,11 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, #399fd5 0%, #0983ff 100%);
-        color: white;
+        background: linear-gradient(180deg, white 0%, white 100%);
+        color: black;
+        box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+        -webkit-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
         font-weight: bold;
         outline: none;
         border: none;
@@ -80,8 +97,8 @@
     }
     
     .header>.contact-button>button:hover {
-        background: linear-gradient(180deg, white 0%, white 100%);
-        color: black;
+        background: linear-gradient(180deg, black 0%, black 100%);
+        color: white;
         box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
         -webkit-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
         -moz-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
@@ -113,9 +130,9 @@
     .header>.bored-button>button:hover {
         background: linear-gradient(180deg, white 0%, white 100%);
         color: black;
-        box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
-        -webkit-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
-        -moz-box-shadow: 0px 0px 35px -3px rgba(0, 0, 0, 0.53);
+        box-shadow: 0px 0px 35px -3px rgba(9, 131, 255, 0.53);
+        -webkit-box-shadow: 0px 0px 35px -3px rgba(9, 131, 255, 0.53);
+        -moz-box-shadow: 0px 0px 35px -3px rgba(9, 131, 255, 0.53);
     }
     
     .leftMain {
@@ -125,12 +142,13 @@
         width: 50%;
         height: 100%;
         background-color: transparent;
+        z-index: 1;
     }
     
     .somethingNew {
         position: absolute;
         top: 26%;
-        left: 13.5%;
+        left: 13%;
         width: 90%;
         text-align: left;
         font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
@@ -138,12 +156,13 @@
         font-weight: 800;
         height: fit-content;
         margin: 0%;
+        color: rgba(255, 255, 255, 0.95);
     }
     
     .comingSoon {
         position: relative;
         top: 28.5%;
-        left: 10%;
+        left: 9.5%;
         width: 90%;
         text-align: left;
         font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
@@ -151,12 +170,13 @@
         font-weight: 900;
         height: fit-content;
         margin: 0%;
+        color: rgba(255, 255, 255, 0.95);
     }
     
     .aboutUs {
         position: relative;
         top: 28.5%;
-        left: 14%;
+        left: 13.5%;
         width: 80%;
         height: fit-content;
         text-align: left;
@@ -166,23 +186,24 @@
         height: fit-content;
         margin: 0%;
         padding-left: 3.5%;
-        border-left: 5px solid black;
+        color: rgba(255, 255, 255, 0.95);
+        border-left: 5px solid rgba(255, 255, 255, 0.95);
         word-wrap: break-word;
     }
     
     .leftMainBottom {
-        position: absolute;
-        bottom: 5%;
-        left: 5%;
-        width: 90%;
-        height: 12.5%;
-        background-color: rgb(216, 216, 216);
-        visibility: collapse;
+        position: relative;
+        top: 33%;
+        left: 60%;
+        width: 40%;
+        height: 9.5%;
+        background-color: rgba(255, 255, 255, 0.975);
+        border-radius: 10px;
     }
     
     .stadiaLogo {
         position: relative;
-        margin-left: 2%;
+        margin-left: 6.5%;
         top: 30%;
         height: 40%;
     }
@@ -194,14 +215,15 @@
         width: 50%;
         height: 100%;
         background-color: transparent;
+        z-index: 1;
     }
     
     .rightMain>.box {
         position: absolute;
-        right: 10%;
-        top: 15%;
-        width: 80%;
-        height: 70%;
+        right: 0%;
+        bottom: 0%;
+        width: 90%;
+        height: 100%;
         background-color: transparent;
     }
     
@@ -220,7 +242,7 @@
         width: 30%;
         height: 58.5%;
         border-radius: 10px;
-        background-image: url('wbx/plt/youssef-sarhan-tze1kKj7Lgg-unsplash.jpg');
+        background-image: url('wbx/plt/pexels-oleg-magni-861126.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -246,7 +268,7 @@
         width: 36%;
         height: 32%;
         border-radius: 10px;
-        background-image: url('wbx/plt/omid-armin-mKq2JNnlHZ4-unsplash.jpg');
+        background-image: url('wbx/plt/josh-miller-x3UaEipwkVE-unsplash.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -285,21 +307,32 @@
         width: 30%;
         height: 38.5%;
         border-radius: 10px;
-        background-image: url('wbx/plt/josh-miller-x3UaEipwkVE-unsplash.jpg');
+        background-image: url('wbx/plt/omid-armin-mKq2JNnlHZ4-unsplash.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     
+    .seven {
+        position: absolute;
+        bottom: 34%;
+        left: 32%;
+        width: 36%;
+        height: 32%;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #399fd5 0%, #0983ff 100%);
+    }
+    
     .bottomSocial {
         position: absolute;
         bottom: 3%;
-        right: 3%;
+        left: 3%;
     }
     
     .bi {
         font-size: 1.5rem;
         margin-left: 12.5px;
+        color: white;
         transition: color ease 0.25s;
     }
     
@@ -308,50 +341,73 @@
     }
     
     @media screen and (max-width: 699px) {
+        .header {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            height: 12%;
+            width: 100%;
+            background-color: transparent;
+            z-index: 50;
+        }
         .leftMain {
             position: absolute;
-            top: 50%;
+            top: 12%;
             width: 100%;
-            height: 50%;
+            height: 88%;
             z-index: 1;
         }
         .rightMain {
+            position: absolute;
+            top: 0%;
+            width: 100%;
+            height: 100%;
             width: 100%;
         }
         .rightMain>.box {
             position: absolute;
             right: 1%;
-            top: 17.5%;
+            top: 52.5%;
             width: 98%;
             height: 40%;
             background-color: transparent;
+            visibility: collapse;
         }
         .somethingNew {
             position: absolute;
-            top: 21%;
+            top: 17%;
             left: 8%;
             width: 50%;
-            font-size: 15px;
+            font-size: 19px;
         }
         .comingSoon {
-            position: absolute;
+            position: relative;
             width: 97%;
-            top: 23.5%;
+            top: 19%;
             left: 3%;
             font-size: 45px;
         }
         .aboutUs {
             position: relative;
-            top: 40%;
+            top: 19.5%;
             left: 8%;
-            font-size: 12.5px;
-            border-left: 3px solid black;
+            font-size: 14px;
+            border-left: 3px solid rgba(255, 255, 255, 0.95);
+        }
+        .leftMainBottom {
+            position: relative;
+            top: 25%;
+            left: 10%;
+            width: 80%;
+            height: 9.5%;
+            background-color: rgba(255, 255, 255, 0.975);
+            border-radius: 10px;
         }
         .header>.contact-button {
             width: 35%;
         }
         .header>.contact-button>button {
-            font-size: 16.5px;
+            font-size: 15px;
         }
         .bi {
             margin-left: 5px;
@@ -359,7 +415,7 @@
         }
     }
     
-    @media screen and (min-width: 700px) and (max-width: 1000px) {
+    @media screen and (min-width: 700px) and (max-width: 1024px) {
         .leftMain {
             width: 100%;
         }
