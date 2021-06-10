@@ -498,16 +498,24 @@
         .somethingNew {
             position: absolute;
             top: 27%;
-            font-size: 15px;
+            font-size: 17.5px;
         }
         .comingSoon {
-            font-size: 40px;
+            font-size: 60px;
         }
         .aboutUs {
-            font-size: 12.5px;
+            font-size: 15px;
+        }
+        .leftMainBottom {
+            position: relative;
+            height: 5.75%;
+        }
+        .header>.contact-button {
+            width: 11.5%;
+            height: 42.5%;
         }
         .header>.contact-button>button {
-            font-size: 10px;
+            font-size: 13px;
         }
         .bi {
             font-size: 1em;
