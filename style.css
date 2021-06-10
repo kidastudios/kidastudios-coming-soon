@@ -489,8 +489,8 @@
             font-size: 1.15em;
         }
         mark {
-            background-color: black;
-            color: white;
+            background-color: white;
+            color: black;
         }
     }
     
@@ -508,7 +508,7 @@
         }
         .leftMainBottom {
             position: relative;
-            height: 5.75%;
+            height: 6.5%;
         }
         .header>.contact-button {
             width: 11.5%;
@@ -519,6 +519,10 @@
         }
         .bi {
             font-size: 1em;
+        }
+        mark {
+            background-color: white;
+            color: black;
         }
     }
     
@@ -535,5 +539,9 @@
         }
         .header>.contact-button>button {
             font-size: 17.55px;
+        }
+        mark {
+            background-color: white;
+            color: black;
         }
     }
