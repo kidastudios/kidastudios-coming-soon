@@ -194,18 +194,42 @@
     .leftMainBottom {
         position: relative;
         top: 33%;
-        left: 60%;
-        width: 40%;
+        left: 65%;
+        width: 32.5%;
         height: 9.5%;
         background-color: rgba(255, 255, 255, 0.975);
         border-radius: 10px;
     }
     
-    .stadiaLogo {
+    .Logo {
         position: relative;
-        margin-left: 6.5%;
         top: 30%;
         height: 40%;
+    }
+    
+    .stadiaLogo {
+        position: relative;
+        left: 5%;
+    }
+    
+    .playLogo {
+        position: relative;
+        left: 7.5%;
+    }
+    
+    .appLogo {
+        position: relative;
+        left: 10%;
+    }
+    
+    .storeLogo {
+        position: relative;
+        left: 14%;
+    }
+    
+    .xboxLogo {
+        position: relative;
+        left: 18.5%;
     }
     
     .rightMain {
@@ -415,42 +439,54 @@
         }
     }
     
-    @media screen and (min-width: 700px) and (max-width: 1024px) {
+    @media screen and (min-width: 700px) and (max-width: 999px) {
         .leftMain {
             width: 100%;
         }
         .rightMain {
             width: 100%;
         }
+        .box {
+            visibility: collapse;
+        }
         .somethingNew {
             position: absolute;
-            top: 22%;
-            left: 8%;
+            top: 28%;
+            left: 17.5%;
             width: 50%;
             font-size: 20px;
         }
         .comingSoon {
-            position: absolute;
-            top: 23%;
-            left: 3%;
+            position: relative;
+            width: fit-content;
+            top: 29%;
+            left: 12.5%;
             font-size: 70px;
         }
         .aboutUs {
-            position: absolute;
-            top: 32.5%;
-            left: 8%;
+            position: relative;
+            top: 30%;
+            left: 17.5%;
+            width: 60%;
             font-size: 17.5px;
-            border-left: 3px solid black;
+            border-left: 3px solid white;
+        }
+        .leftMainBottom {
+            position: relative;
+            width: 25%;
+            height: 5%;
+            left: 55%;
         }
         .header>.contact-button {
-            width: 25%;
+            width: 20%;
+            height: 35%;
         }
         .header>.contact-button>button {
             font-size: 16.5px;
         }
         .bi {
             margin-left: 5px;
-            font-size: 1.25em;
+            font-size: 1.15em;
         }
         mark {
             background-color: black;
