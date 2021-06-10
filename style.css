@@ -537,6 +537,14 @@
     }
     
     @media screen and (min-width: 1000px) and (max-width: 1200px) {
+        .rightMain>.box {
+            position: absolute;
+            right: 0%;
+            bottom: 20%;
+            width: 90%;
+            height: 60%;
+            background-color: transparent;
+        }
         .somethingNew {
             position: absolute;
             top: 27%;
