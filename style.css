@@ -812,9 +812,9 @@
         }
         .platforms-design{
             position: absolute;
-            left: 25%;
-            top: 53%;
-            height: 60%;
+            left: 0%;
+            top: 47%;
+            height: 68%;
             transform: rotate(-90deg);
         }
         .platform-logos{
