@@ -769,21 +769,22 @@
         .somethingNew {
             position: absolute;
             top: 17.5%;
-            left: 8%;
-            width: 50%;
-            font-size: 17.5px;
+            left: 10%;
+            width: 80%;
+            font-size: 16.5px;
         }
         .comingSoon {
             position: relative;
-            width: 97%;
+            width: 90%;
             top: 19.5%;
-            left: 3%;
-            font-size: 65px;
+            left: 5%;
+            font-size: 45px;
         }
         .aboutUs {
             position: relative;
             top: 19.5%;
-            left: 8%;
+            left: 10%;
+            width: 70%;
             font-size: 14px;
             border-left: 3px solid rgba(255, 255, 255, 0.95);
         }
@@ -796,31 +797,6 @@
             background-color: rgba(255, 255, 255, 0.975);
             border-radius: 10px;
         }
-        .Logo {
-            position: relative;
-            top: 30%;
-            height: 40%;
-        }
-        .stadiaLogo {
-            position: relative;
-            left: 5%;
-        }
-        .playLogo {
-            position: relative;
-            left: 7.5%;
-        }
-        .appLogo {
-            position: relative;
-            left: 10%;
-        }
-        .storeLogo {
-            position: relative;
-            left: 14%;
-        }
-        .xboxLogo {
-            position: relative;
-            left: 18.5%;
-        }
         .header>.contact-button {
             width: 35%;
         }
@@ -830,6 +806,219 @@
         .bi {
             margin-left: 5px;
             font-size: 1.25em;
+        }
+        .platforms-div{
+            height: 100%;
+        }
+        .platforms-design{
+            position: absolute;
+            left: 25%;
+            top: 53%;
+            height: 60%;
+            transform: rotate(-90deg);
+        }
+        .platform-logos{
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            width: 100%;
+        }
+        .platform-logos-header{
+            position: relative;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            font-size: 27.5px;
+        }
+        .platform-logos-description{
+            position: relative;
+            top: 2.5%;
+            left: 5%;
+            width: 90%;
+            font-size: 15px;
+        }
+        .ios-logo {
+            position: absolute;
+            top: 35%;
+            width: 10%;
+            left: 5%;
+            border: 0px solid grey;
+        }
+    
+        .iPadOS-logo {
+            position: absolute;
+            top: 35.4%;
+            width: 17.5%;
+            left: 20%;
+            border: 0px solid grey;
+        }
+    
+        .macOS-logo {
+            position: absolute;
+            top: 35.6%;
+            width: 17.5%;
+            left: 44%;
+            border: 0px solid grey;
+        }
+    
+        .watchOS-logo {
+            position: absolute;
+            top: 35.6%;
+            width: 17.5%;
+            left: 68.5%;
+            border: 0px solid grey;
+        }
+    
+        .tvOS-logo {
+            position: absolute;
+            top: 43.6%;
+            width: 9%;
+            left: 6%;
+            border: 0px solid grey;
+        }
+    
+        .android-logo {
+            position: absolute;
+            top: 40.2%;
+            width: 30%;
+            left: 19%;
+            border: 0px solid grey;
+        }
+    
+        .androidTV-logo {
+            position: absolute;
+            top: 40.2%;
+            width: 29%;
+            left: 49%;
+            border: 0px solid grey;
+        }
+    
+        .windows-logo {
+            position: absolute;
+            top: 43.2%;
+            width: 12%;
+            left: 76%;
+            border: 0px solid grey;
+        }
+    
+        .xboxOne-logo {
+            position: absolute;
+            top: 49.25%;
+            width: 25%;
+            left: 3%;
+            border: 0px solid grey;
+        }
+    
+        .microsoftLens-logo {
+            position: absolute;
+            top: 50.25%;
+            width: 18%;
+            left: 30%;
+            border: 0px solid grey;
+        }
+    
+        .universalWindows-logo {
+            position: absolute;
+            top: 50.75%;
+            width: 13%;
+            left: 49%;
+            border: 0px solid grey;
+        }
+    
+        .vuforia-logo {
+            position: absolute;
+            top: 51.75%;
+            width: 16%;
+            left: 65%;
+            border: 0px solid grey;
+        }
+    
+        .ps4-logo {
+            position: absolute;
+            top:58%;
+            width: 18%;
+            left: 3.75%;
+            border: 0px solid grey;
+        }
+    
+        .ps4VR-logo {
+            position: absolute;
+            top: 57.6%;
+            width: 19.5%;
+            left: 25.75%;
+            border: 0px solid grey;
+        }
+    
+        .stadia-logo {
+            position: absolute;
+            top:59%;
+            width: 11%;
+            left: 49%;
+            border: 0px solid grey;
+        }
+    
+        .arcore-logo {
+            position: absolute;
+            top:57.8%;
+            width: 17.5%;
+            left: 62%;
+            border: 0px solid grey;
+        }
+    
+        .arkit-logo {
+            position: absolute;
+            top:59.25%;
+            width: 5%;
+            left: 83%;
+            border: 0px solid grey;
+        }
+    
+        .magicLeap-logo {
+            position: absolute;
+            top:65.75%;
+            width: 17.5%;
+            left: 5%;
+            border: 0px solid grey;
+        }
+    
+        .webgl-logo {
+            position: absolute;
+            top:65.75%;
+            width: 16%;
+            left: 25.75%;
+            border: 0px solid grey;
+        }
+    
+        .windowsMixedReality-logo {
+            position: absolute;
+            top:66%;
+            width: 14%;
+            left: 42%;
+            border: 0px solid grey;
+        }
+    
+        .oculus-logo {
+            position: absolute;
+            top:66.2%;
+            width: 13%;
+            left: 56.5%;
+            border: 0px solid grey;
+        }
+    
+        .switch-logo {
+            position: absolute;
+            top:66.2%;
+            width: 13%;
+            left: 69%;
+            border: 0px solid grey;
+        }
+    
+        .linux-logo {
+            position: absolute;
+            top:51%;
+            width: 13%;
+            left: 81%;
+            border: 0px solid grey;
         }
     }
 
