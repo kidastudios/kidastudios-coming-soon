@@ -155,7 +155,7 @@
 
     .somethingNew {
         position: absolute;
-        top: 30%;
+        top: 27.5%;
         left: 15%;
         width: 80%;
         text-align: left;
@@ -169,7 +169,7 @@
 
     .comingSoon {
         position: relative;
-        top: 32.5%;
+        top: 30%;
         left: 11.5%;
         width: 80%;
         text-align: left;
@@ -183,7 +183,7 @@
 
     .aboutUs {
         position: relative;
-        top: 34.5%;
+        top: 30.5%;
         left: 15.5%;
         width: 55%;
         height: fit-content;
@@ -367,7 +367,7 @@
     }
 
     .bi {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         margin-left: 12.5px;
         color: white;
         transition: color ease 0.25s;
@@ -383,68 +383,6 @@
         padding-left: 2.5px;
         padding-right: 2.5px;
         border-radius: 3px;
-    }
-
-    .second-div {
-        position: absolute;
-        top: 105%;
-        left: 0%;
-        width: 100%;
-        height: 80%;
-        background-color: white;
-        visibility: collapse;
-    }
-
-    .second-div>.d1 {
-        position: absolute;
-        left: 2%;
-        top: 10%;
-        width: 22.5%;
-        height: 80%;
-        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
-        border-radius: 10px;
-    }
-
-    .second-div>.d2 {
-        position: absolute;
-        left: 26.5%;
-        top: 10%;
-        width: 22.5%;
-        height: 80%;
-        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
-        border-radius: 10px;
-    }
-
-    .second-div>.d3 {
-        position: absolute;
-        right: 26.5%;
-        top: 10%;
-        width: 22.5%;
-        height: 80%;
-        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
-        border-radius: 10px;
-    }
-
-    .second-div>.d4 {
-        position: absolute;
-        right: 2%;
-        top: 10%;
-        width: 22.5%;
-        height: 80%;
-        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
-        border-radius: 10px;
-    }
-
-    .second-div-topicName {
-        position: absolute;
-        width: 70%;
-        top: 5%;
-        left: 15%;
-        font-size: 21px;
-        font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-        font-weight: bold;
-        word-wrap: break-word;
-        color: white;
     }
 
     .platforms-div {
@@ -689,6 +627,68 @@
         width: 7.75%;
         left: 56%;
         border: 0px solid grey;
+    }
+    
+    .second-div {
+        position: absolute;
+        top: 185%;
+        left: 0%;
+        width: 100%;
+        height: 80%;
+        background-color: rgba(255, 255, 255);
+        visibility: collapse;
+    }
+
+    .second-div>.d1 {
+        position: absolute;
+        left: 2%;
+        top: 10%;
+        width: 22.5%;
+        height: 80%;
+        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
+        border-radius: 10px;
+    }
+
+    .second-div>.d2 {
+        position: absolute;
+        left: 26.5%;
+        top: 10%;
+        width: 22.5%;
+        height: 80%;
+        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
+        border-radius: 10px;
+    }
+
+    .second-div>.d3 {
+        position: absolute;
+        right: 26.5%;
+        top: 10%;
+        width: 22.5%;
+        height: 80%;
+        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
+        border-radius: 10px;
+    }
+
+    .second-div>.d4 {
+        position: absolute;
+        right: 2%;
+        top: 10%;
+        width: 22.5%;
+        height: 80%;
+        background: linear-gradient(180deg, #f89b29 0%, #f89b29 100%);
+        border-radius: 10px;
+    }
+
+    .second-div-topicName {
+        position: absolute;
+        width: 70%;
+        top: 5%;
+        left: 15%;
+        font-size: 21px;
+        font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        font-weight: bold;
+        word-wrap: break-word;
+        color: white;
     }
 
     .hire-section {
@@ -1080,13 +1080,17 @@
     @media screen and (min-width: 1000px) and (max-width: 1200px) {
         .somethingNew {
             position: absolute;
-            top: 30%;
+            top: 27.5%;
             font-size: 17.5px;
         }
         .comingSoon {
-            font-size: 60px;
+            position: relative;
+            top: 30%;
+            font-size: 65px;
         }
         .aboutUs {
+            position: relative;
+            top: 30.5%;
             font-size: 15px;
         }
         .leftMainBottom {
@@ -1132,7 +1136,7 @@
     @media screen and (min-width: 1600px) {
         .somethingNew {
             position: absolute;
-            top: 30.5%;
+            top: 28%;
         }
         .comingSoon {
             font-size: 100px;
